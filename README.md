@@ -3,3 +3,9 @@
 | No.  | Name                   | NRP                |
 |------|------------------------|--------------------|
 | 1.   | Sean Arthur Tamajaya   | 5027251050         |
+
+Penjelasan 
+
+**Deskripsi Kasus**
+Jadi kasus yang saya ambil adalah struktur organisasi suatu ukm di universitas yang tidak rapi dan tidak konsisten sehingga perlunya ada sistem yang terstruktur agar setiap dari masing-masing jabatan tahu tanggung jawab dan hubungan jabatannya itu dengan jabatan yang lain.
+
