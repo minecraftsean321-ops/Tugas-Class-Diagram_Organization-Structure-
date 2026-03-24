@@ -470,5 +470,5 @@ class Main {
 
 ```
 **Output Program**
-
-!
+![OutputProgram1](<Assets/OutputKodeJava1.png>)
+![OutputProgram2](<Assets/OutputKodeJava2.png>)
