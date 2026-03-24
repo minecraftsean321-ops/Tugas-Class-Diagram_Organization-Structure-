@@ -4,15 +4,15 @@
 |------|------------------------|--------------------|
 | 1.   | Sean Arthur Tamajaya   | 5027251050         |
 
-Penjelasan  
-**Deskripsi Kasus**  
+## Penjelasan  
+## **Deskripsi Kasus**  
 Jadi studi kasus yang saya gunakan adalah masalah dari suatu organisasi yang tidak bisa merubah-rubah data yang dimilikinya dengan efisien dan efektif dikarenakan organisasi tersebut masih menggunakan sistem manual. Jadi disini saya berusaha untuk mmebuat program dimana pemilik dari organisasi tersebut dapat merubah dan menampilkan data dari setiap divisi yang ada diorganisasi dengan lebih efesien dan efektif menggunakan konsep dari OOP.
 
-**Class Diagram**  
+## **Class Diagram**  
 
 ![Class Diagram](<Assets/Class Diagram_Organization Structure.png>)
 
-**Kode Java**
+## **Kode Java**
 
 ```java
 
@@ -469,8 +469,26 @@ class Main {
 }
 
 ```
-**Output Program**  
+## **Output Program**  
 
 ![OutputProgram1](<Assets/OutputKodeJava1.png>)
 
 ![OutputProgram2](<Assets/OutputKodeJava2.png>)
+
+## **Prinsip-prinsip OOP**
+
+**Encapsulation**  
+Jadi prinsip OOP yang saya gunakan itu ada encapsulation dimana setiap attribute di class, saya gunakan accsess modifier private, karena saya tidak ingin data yang ada di setiap class bisa dirubah secara tidak sengaja sehingga saat ini data yang ada di attribute itu hanya bisa diakses melalui setter dan getter yang telah saya buat.
+
+**Interface**  
+Selanjutnya saya juga menggunakan prinsip interface untuk membuat fungsi showInfo sehingga setiap class bisa mengimplementasikan fungsi tersebut agar tidak perlu membuat fungsi showInfo dimasing-masing class lagi, hal ini saya lakukan juga karena setiap class di progam saya itu tidak ada yang memiliki hubungan inheritence/turunan sehingga saya tidak bisa menggunakan fungsi abstract. Dengan prinsip interface ini saya juga bisa mengeloop output dari setiap class tanpa terlalu banyak menulis System.out.println.
+
+**Array**  
+Di program saya, saya juga menggunakan prinsip Array untuk menyimpan objek baru yang diciptakan oleh masing-masing class sehingga dapat diloop untuk mengeluarkan outputnya.
+
+**Polymorphism**  
+Saya juga menggunakan prinsip Polymorphism ini bisa dilihat dari penggunaan fungsi showInfo yang berbeda dari setiap class.
+
+## **Keunikan**  
+Jadi keunikan dari kode saya itu bisa dilihat dari penggunaan interface fungsi showInfo yang sangat berpengaruh terhadap ke efisiennan dan ke efektifan dari program saya, karena dengan adanya interface OrganizationInfo ini saya jadi tidak perlu membuat fungsi showInfo yang berbeda disetiap class dan saya juga lebih mudah untuk mengoutput hasilnya dengan menggunakan loop sehingga program terlihat lebih rapi karena tidak terlalu banyak perintah System.out.println. Selain itu hubungan dari setiap class itu bukanlah inheritence melainkan managed, supervised dan collaborated sehingga di beberapa class itu saya membuat objek dari Organization org agar class tersebut tahu mereka bekerja di Organisasi apa dan bisa tetap terhubung.
+
