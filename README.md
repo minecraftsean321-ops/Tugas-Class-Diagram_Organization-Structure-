@@ -117,10 +117,10 @@ class Treasurer implements OrganizationInfo{
     String treasurerID;
     String nama;
     String email;
-    double balanced;
+    int balanced;
     protected Organization org;
 
-    public Treasurer (Organization org, String treasurerID, String nama, String email, double balanced){
+    public Treasurer (Organization org, String treasurerID, String nama, String email, int balanced){
         this.org = org;
         this.treasurerID = treasurerID;
         this.nama = nama;
@@ -153,7 +153,7 @@ class Treasurer implements OrganizationInfo{
         this.email = email;
     }
 
-    public void setBalanced(double balanced) {
+    public void setBalanced(int balanced) {
         this.balanced = balanced;
     }
 
@@ -469,6 +469,8 @@ class Main {
 }
 
 ```
-**Output Program**
+**Output Program**  
+
 ![OutputProgram1](<Assets/OutputKodeJava1.png>)
+
 ![OutputProgram2](<Assets/OutputKodeJava2.png>)
