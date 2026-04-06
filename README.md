@@ -10,7 +10,7 @@ Jadi studi kasus yang saya gunakan adalah masalah dari suatu organisasi yang tid
 
 ## **Class Diagram**  
 
-![Class Diagram](<Assets/Class Diagram_Organization Structure.png>)
+![Class Diagram](<Assets/Class Diagram_Organization Structure New.png>)
 
 ## **Kode Java**
 
